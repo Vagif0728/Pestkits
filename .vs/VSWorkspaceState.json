@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Petkit",
+    "\\Petkit\\Areas",
+    "\\Petkit\\Areas\\Admin",
+    "\\Petkit\\Areas\\Admin\\Views",
+    "\\Petkit\\Areas\\Admin\\Views\\Home"
+  ],
+  "SelectedNode": "\\Petkit\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

@@ -6,7 +6,7 @@
         public int DepartmentId { get; set; }
         public int PositionId { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
+        public string? Description { get; set; }
         public string ImageURL { get; set; }
         public string Instagram { get; set; }
         public string Facebook { get; set; }

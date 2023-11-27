@@ -11215,11 +11215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ca.r214.19\\source\\repos\\Petkit\\Petkit\\Petkit.csproj",
+      "projectUniqueName": "C:\\Users\\ca.r214.19\\Desktop\\Petkit\\Petkit\\Petkit.csproj",
       "projectName": "Petkit",
-      "projectPath": "C:\\Users\\ca.r214.19\\source\\repos\\Petkit\\Petkit\\Petkit.csproj",
+      "projectPath": "C:\\Users\\ca.r214.19\\Desktop\\Petkit\\Petkit\\Petkit.csproj",
       "packagesPath": "C:\\Users\\ca.r214.19\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ca.r214.19\\source\\repos\\Petkit\\Petkit\\obj\\",
+      "outputPath": "C:\\Users\\ca.r214.19\\Desktop\\Petkit\\Petkit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ca.r214.19\\AppData\\Roaming\\NuGet\\NuGet.Config",
