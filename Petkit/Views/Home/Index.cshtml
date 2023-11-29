@@ -411,19 +411,19 @@
         <div class="row g-5">
             <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".3s">
 
-                @foreach(Department department in Model.Department)
+                @foreach(Employee employee in Model.Employees)
                 {
                     <div class="rounded team-item">
-                        <img src="@department.ImageURL" class="img-fluid w-100 rounded-top border border-bottom-0" alt="">
+                        <img src="@employee.ImageURL" class="img-fluid w-100 rounded-top border border-bottom-0" alt="">
                         <div class="team-content bg-primary text-dark text-center py-3">
-                            <span class="fs-4 fw-bold">@department.Name</span>
-                            <p class="text-muted mb-0">Designation</p>
+                            <span class="fs-4 fw-bold">@employee.Name</span>
+                            <p class="text-muted mb-0">@employee.Description</p>
                         </div>
                         <div class="team-icon d-flex flex-column ">
-                            <a href="#" class="btn btn-primary border-0 mb-2"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="btn btn-primary border-0 mb-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="btn btn-primary border-0 mb-2"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="btn btn-primary border-0"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="btn btn-primary border-0 mb-2"><i class="fab fa-facebook-f">@employee.Facebook</i></a>
+                            <a href="#" class="btn btn-primary border-0 mb-2"><i class="fab fa-twitter">@employee.Twiter</i></a>
+                            <a href="#" class="btn btn-primary border-0 mb-2"><i class="fab fa-instagram">@employee.Instagram</i></a>
+                            <a href="#" class="btn btn-primary border-0"><i class="fab fa-linkedin-in">@employee.Linkedin</i></a>
                         </div>
                     </div>
                 }
