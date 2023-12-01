@@ -1,6 +1,64 @@
 ﻿@model List<Author>
 
+@{
+    int count = 0;
+}
+
+
 <div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Author Table</h4>
+        <p class="card-description">
+             <code><a asp-action="create"  class="btn btn-primary">Author Create</a></code>
+        </p>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Author Name</th>
+                        <th>Settings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(Author author in Model)
+                    {
+                        count++;
+                        <tr>
+
+
+
+                            <td>@count</td>
+                            <td>@author.Name</td>
+                            <td>
+                                <a asp-action="Update" asp-controller="Author" asp-route-id="@author.Id"  class="btn btn-warning">
+                                    <i class="mdi mdi-auto-upload"></i>
+                                </a>
+                                <a asp-action="Delete" asp-controller="Author" asp-route-id="@author.Id" class="btn btn-danger">
+                                    <i class="mdi mdi-delete"></i>
+                                </a>
+                               <a asp-action="Detail" asp-controller="Author"  asp-route-id="@author.Id" class="btn btn-primary">
+
+                                  <i class="mdi mdi-content-copy"></i> 
+                               </a>
+                                
+
+                            </td>
+
+
+                            <td><label class="badge badge-danger">Pending</label></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+@*<div class="card">
     <div class="card-body">
         <h4 class="card-title">Basic form elements</h4>
         <p class="card-description">
@@ -48,4 +106,4 @@
             <button class="btn btn-light">Cancel</button>
         </form>
     </div>
-</div>
+</div>*@

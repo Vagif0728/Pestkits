@@ -2,5 +2,6 @@
 {
     public class DeleteAuthorVM
     {
+        public string Name { get; set; }
     }
 }

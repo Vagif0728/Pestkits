@@ -2,5 +2,6 @@
 {
     public class UpdateAuthorVM
     {
+        public string Name { get; set; }
     }
 }
